@@ -6,7 +6,7 @@ const error404 = document.querySelector('.not-found');
 
 search.addEventListener('click', () => {
 
-    const APIKey = '------------';
+    const APIKey = '479bb94341cf33ad4d46beb91da7576e';
     const city = document.querySelector('.search-box input').value;
 
     if (city === '')
@@ -69,9 +69,5 @@ search.addEventListener('click', () => {
             weatherBox.classList.add('fadeIn');
             weatherDetails.classList.add('fadeIn');
             container.style.height = '490px';
-
-
         });
-
-
 });
